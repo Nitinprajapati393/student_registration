@@ -206,6 +206,9 @@ header .social-icons i {
     width: 50px;
     margin-top: 4px;
 }
+#navbar{
+    backdrop-filter: blur(10px);
+}
 
 .sticky {
     z-index: 99;
@@ -213,7 +216,8 @@ header .social-icons i {
     font-weight: 600;
     top: 0;
     width: 100%;
-    background: rgba(73, 160, 3, 0.94);
+    /* background: rgba(73, 160, 3, 0.94); */
+    background: rgba(14, 4, 4, 0.8);
 }
 
 .sticky img {
